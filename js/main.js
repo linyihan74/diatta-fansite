@@ -55,8 +55,9 @@
     document.querySelectorAll("img[data-fallback]").forEach(function (img) {
       img.addEventListener("error", function handler() {
         img.removeEventListener("error", handler);
-        img.src = fallbackSrc(img.getAttribute("data-fallback") || "27");
-        img.alt = "27";
+        var num = img.getAttribute("data-fallback") || "15";
+        img.src = fallbackSrc(num);
+        img.alt = num;
       });
     });
 
