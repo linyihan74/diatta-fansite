@@ -550,7 +550,7 @@ td.club-cell { font-weight: 800; white-space: nowrap; }
 /* ---------- Page hero (inner pages) ---------- */
 .page-hero { padding: 52px 0 40px; position: relative; overflow: hidden; }
 .page-hero::after {
-  content: "27"; position: absolute; right: -20px; top: -40px;
+  content: "15"; position: absolute; right: -20px; top: -40px;
   font-family: var(--font-num); font-size: 220px; line-height: 1;
   color: transparent; -webkit-text-stroke: 3px rgba(31,26,22,0.10);
   pointer-events: none; user-select: none;
