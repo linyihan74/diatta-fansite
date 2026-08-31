@@ -16,6 +16,7 @@
   --white: #FFFDF7;
   --font-display: 'Archivo Black', 'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif;
   --font-num: 'Bebas Neue', 'Archivo Black', 'Arial Black', sans-serif;
+  --font-jersey: 'Anton', 'Bebas Neue', 'Arial Black', sans-serif;
   --font-body: 'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', -apple-system, 'Segoe UI', Roboto, sans-serif;
   --font-mono: 'Courier New', ui-monospace, monospace;
   --shadow-hard: 6px 6px 0 var(--ink);
@@ -206,7 +207,7 @@ p { margin: 0 0 1em; }
 .hero-art { position: relative; min-height: 420px; display: grid; place-items: center; }
 .hero-number {
   position: absolute; z-index: 0;
-  font-family: var(--font-num);
+  font-family: var(--font-jersey);
   font-size: clamp(260px, 34vw, 480px);
   line-height: 1;
   color: transparent;
@@ -260,7 +261,7 @@ p { margin: 0 0 1em; }
   margin-top: 40px;
 }
 .jersey-name { font-family: var(--font-display); font-size: 26px; letter-spacing: 4px; }
-.jersey-num { font-family: var(--font-num); font-size: 96px; line-height: 0.9; }
+.jersey-num { font-family: var(--font-jersey); font-size: 96px; line-height: 0.9; }
 
 /* ---------- Sections ---------- */
 .section { padding: 56px 0; }
