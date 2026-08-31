@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="zh" data-lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title data-i18n="page.title.gallery">图库 · Krépin Diatta</title>
+<meta name="description" content="克雷平·迪亚塔图片集：摩纳哥、塞内加尔国家队、非洲杯、世界杯。Krépin Diatta photo gallery.">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Bebas+Neue&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Bebas+Neue&display=swap"></noscript>
+<link rel="stylesheet" href="css/style.css">
+<script>
+(function () {
+  var l = new URLSearchParams(location.search).get('lang');
+  if (l !== 'en' && l !== 'zh') { try { l = localStorage.getItem('diatta_lang'); } catch (e) {} }
+  if (l !== 'en' && l !== 'zh') l = 'zh';
+  document.documentElement.lang = l;
+  document.documentElement.setAttribute('data-lang', l);
+})();
+window.__imgFallback = function (img) {
+  var num = img.getAttribute('data-fallback') || '27';
+  var svg = '<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600"><rect width="800" height="600" fill="#0B3D23"/><rect y="0" width="800" height="16" fill="#00853F"/><rect y="16" width="800" height="16" fill="#FDEF42"/><rect y="32" width="800" height="16" fill="#E31B23"/><text x="400" y="200" font-family="Arial Black,Arial,sans-serif" font-size="52" fill="#FDEF42" text-anchor="middle">DIATTA</text><text x="400" y="390" font-family="Arial Black,Arial,sans-serif" font-size="230" fill="#FDEF42" text-anchor="middle">' + num + '</text></svg>';
+  img.onerror = null;
+  img.src = 'data:image/svg+xml;charset=utf-8,' + encodeURIComponent(svg);
+};
+</script>
+<script src="js/i18n.js" defer></script>
+<script src="js/main.js" defer></script>
+</head>
+<body>
+<a class="skip-link" href="#main" data-i18n="nav.skip">跳到主要内容</a>
+
+<header class="site-header">
+  <div class="stripe-bar" aria-hidden="true"></div>
+  <div class="container header-inner">
+    <a class="brand" href="index.html">
+      <span class="brand-badge">27</span>
+      <span class="brand-text">
+        <span class="brand-name">DIATTA</span>
+        <span class="brand-sub" data-i18n="site.subtitle">克雷平·迪亚塔 · 球迷站</span>
+      </span>
+    </a>
+    <button class="nav-toggle" id="navToggle" type="button" aria-label="菜单" aria-expanded="false"><span></span><span></span><span></span></button>
+    <nav class="site-nav" id="siteNav" aria-label="主导航">
+      <ul>
+        <li><a href="index.html" data-i18n="nav.home">首页</a></li>
+        <li><a href="bio.html" data-i18n="nav.bio">生平</a></li>
+        <li><a href="career.html" data-i18n="nav.career">俱乐部</a></li>
+        <li><a href="national.html" data-i18n="nav.national">国家队</a></li>
+        <li><a href="stats.html" data-i18n="nav.stats">数据</a></li>
+        <li><a href="honors.html" data-i18n="nav.honors">荣誉</a></li>
+        <li><a href="gallery.html" class="active" aria-current="page" data-i18n="nav.gallery">图库</a></li>
+        <li><a href="about.html" data-i18n="nav.about">关于</a></li>
+      </ul>
+    </nav>
+    <button class="lang-toggle" id="langToggle" type="button" aria-label="切换语言为英文">EN</button>
+  </div>
+</header>
+
+<main id="main">
+  <section class="page-hero">
+    <div class="container">
+      <p class="hero-kicker" data-i18n="gallery.hero.kicker">图库</p>
+      <h1 data-i18n="gallery.hero.title">精彩瞬间</h1>
+      <p class="hero-tagline" data-i18n="gallery.hero.tag">图片来源：Wikimedia Commons · 点击图片可放大</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="gallery-grid">
+
+        <figure class="g-item reveal" data-full="https://commons.wikimedia.org/wiki/Special:FilePath/Diatta%20Monaco%20%2806-11-2022%29.jpg?width=1400" data-cap="gallery.cap.monaco" data-alt="gallery.alt.monaco" data-artist="Nebuno" data-license="CC BY-SA 4.0">
+          <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Diatta%20Monaco%20%2806-11-2022%29.jpg?width=900" alt="Krépin Diatta" data-i18n-alt="gallery.alt.monaco" data-fallback="27" referrerpolicy="no-referrer" loading="lazy" onerror="window.__imgFallback(this)">
+          <figcaption class="g-cap">
+            <div class="g-title" data-i18n="gallery.cap.monaco">效力摩纳哥期间（2022 年 11 月）</div>
+            <div class="g-credit"><span data-i18n="gallery.credit.by">作者：</span>Nebuno · <span data-i18n="gallery.credit.license">许可：</span>CC BY-SA 4.0 · <a href="https://commons.wikimedia.org/wiki/File:Diatta_Monaco_(06-11-2022).jpg" target="_blank" rel="noopener">Commons</a></div>
+          </figcaption>
+        </figure>
+
+        <figure class="g-item reveal" data-full="https://commons.wikimedia.org/wiki/Special:FilePath/Diatta%20asse%20asm%202425.png?width=1400" data-cap="gallery.cap.monaco2" data-alt="gallery.alt.monaco2" data-artist="Paté kroute" data-license="CC0">
+          <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Diatta%20asse%20asm%202425.png?width=900" alt="Krépin Diatta" data-i18n-alt="gallery.alt.monaco2" data-fallback="27" referrerpolicy="no-referrer" loading="lazy" onerror="window.__imgFallback(this)">
+          <figcaption class="g-cap">
+            <div class="g-title" data-i18n="gallery.cap.monaco2">摩纳哥 vs 圣埃蒂安（2024/25 赛季）</div>
+            <div class="g-credit"><span data-i18n="gallery.credit.by">作者：</span>Paté kroute · <span data-i18n="gallery.credit.license">许可：</span>CC0 · <a href="https://commons.wikimedia.org/wiki/File:Diatta_asse_asm_2425.png" target="_blank" rel="noopener">Commons</a></div>
+          </figcaption>
+        </figure>
+
+        <figure class="g-item reveal" data-full="https://commons.wikimedia.org/wiki/Special:FilePath/Kr%C3%A9pin%20Diatta%20S%C3%A9n%C3%A9gal.png?width=1400" data-cap="gallery.cap.sen1" data-alt="gallery.alt.sen1" data-artist="DAKARACTU TV HD" data-license="CC BY 3.0">
+          <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Kr%C3%A9pin%20Diatta%20S%C3%A9n%C3%A9gal.png?width=900" alt="Krépin Diatta" data-i18n-alt="gallery.alt.sen1" data-fallback="27" referrerpolicy="no-referrer" loading="lazy" onerror="window.__imgFallback(this)">
+          <figcaption class="g-cap">
+            <div class="g-title" data-i18n="gallery.cap.sen1">身披塞内加尔球衣（2019）</div>
+            <div class="g-credit"><span data-i18n="gallery.credit.by">作者：</span>DAKARACTU TV HD · <span data-i18n="gallery.credit.license">许可：</span>CC BY 3.0 · <a href="https://commons.wikimedia.org/wiki/File:Kr%C3%A9pin_Diatta_S%C3%A9n%C3%A9gal.png" target="_blank" rel="noopener">Commons</a></div>
+          </figcaption>
+        </figure>
+
+        <figure class="g-item reveal" data-full="https://commons.wikimedia.org/wiki/Special:FilePath/Kr%C3%A9pin%20Diatta%20S%C3%A9n%C3%A9gal%20%28cropped%29.png?width=1400" data-cap="gallery.cap.sen2" data-alt="gallery.alt.sen2" data-artist="DAKARACTU TV HD" data-license="CC BY 3.0">
+          <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Kr%C3%A9pin%20Diatta%20S%C3%A9n%C3%A9gal%20%28cropped%29.png?width=900" alt="Krépin Diatta" data-i18n-alt="gallery.alt.sen2" data-fallback="27" referrerpolicy="no-referrer" loading="lazy" onerror="window.__imgFallback(this)">
+          <figcaption class="g-cap">
+            <div class="g-title" data-i18n="gallery.cap.sen2">塞内加尔国家队（2019）</div>
+            <div class="g-credit"><span data-i18n="gallery.credit.by">作者：</span>DAKARACTU TV HD · <span data-i18n="gallery.credit.license">许可：</span>CC BY 3.0 · <a href="https://commons.wikimedia.org/wiki/File:Kr%C3%A9pin_Diatta_S%C3%A9n%C3%A9gal_(cropped).png" target="_blank" rel="noopener">Commons</a></div>
+          </figcaption>
+        </figure>
+
+        <figure class="g-item reveal" data-full="https://commons.wikimedia.org/wiki/Special:FilePath/Krepin%20Diatta%20France%20v%20Senegal%2016%20June%202026-479.jpg?width=1400" data-cap="gallery.cap.wc1" data-alt="gallery.alt.wc1" data-artist="Bryan Berlin" data-license="CC BY-SA 4.0">
+          <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Krepin%20Diatta%20France%20v%20Senegal%2016%20June%202026-479.jpg?width=900" alt="Krépin Diatta" data-i18n-alt="gallery.alt.wc1" data-fallback="27" referrerpolicy="no-referrer" loading="lazy" onerror="window.__imgFallback(this)">
+          <figcaption class="g-cap">
+            <div class="g-title" data-i18n="gallery.cap.wc1">2026 世界杯：法国 vs 塞内加尔</div>
+            <div class="g-credit"><span data-i18n="gallery.credit.by">作者：</span>Bryan Berlin · <span data-i18n="gallery.credit.license">许可：</span>CC BY-SA 4.0 · <a href="https://commons.wikimedia.org/wiki/File:Krepin_Diatta_France_v_Senegal_16_June_2026-479.jpg" target="_blank" rel="noopener">Commons</a></div>
+          </figcaption>
+        </figure>
+
+        <figure class="g-item reveal" data-full="https://commons.wikimedia.org/wiki/Special:FilePath/Krepin%20Diatta%20France%20v%20Senegal%2016%20June%202026-490%20%28cropped%29.jpg?width=1400" data-cap="gallery.cap.wc2" data-alt="gallery.alt.wc2" data-artist="Bryan Berlin" data-license="CC BY-SA 4.0">
+          <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Krepin%20Diatta%20France%20v%20Senegal%2016%20June%202026-490%20%28cropped%29.jpg?width=900" alt="Krépin Diatta" data-i18n-alt="gallery.alt.wc2" data-fallback="27" referrerpolicy="no-referrer" loading="lazy" onerror="window.__imgFallback(this)">
+          <figcaption class="g-cap">
+            <div class="g-title" data-i18n="gallery.cap.wc2">2026 世界杯（特写）</div>
+            <div class="g-credit"><span data-i18n="gallery.credit.by">作者：</span>Bryan Berlin · <span data-i18n="gallery.credit.license">许可：</span>CC BY-SA 4.0 · <a href="https://commons.wikimedia.org/wiki/File:Krepin_Diatta_France_v_Senegal_16_June_2026-490_(cropped).jpg" target="_blank" rel="noopener">Commons</a></div>
+          </figcaption>
+        </figure>
+
+        <figure class="g-item reveal" data-full="https://commons.wikimedia.org/wiki/Special:FilePath/Guin%C3%A9e%200%20-%202%20S%C3%A9n%C3%A9gal6%20%28Krepin%20Diatta%29.jpg?width=1400" data-cap="gallery.cap.afcon" data-alt="gallery.alt.afcon" data-artist="feguifoot" data-license="Public domain">
+          <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Guin%C3%A9e%200%20-%202%20S%C3%A9n%C3%A9gal6%20%28Krepin%20Diatta%29.jpg?width=900" alt="Krépin Diatta" data-i18n-alt="gallery.alt.afcon" data-fallback="27" referrerpolicy="no-referrer" loading="lazy" onerror="window.__imgFallback(this)">
+          <figcaption class="g-cap">
+            <div class="g-title" data-i18n="gallery.cap.afcon">非洲杯：几内亚 0-2 塞内加尔（2024）</div>
+            <div class="g-credit"><span data-i18n="gallery.credit.by">作者：</span>feguifoot · <span data-i18n="gallery.credit.license">许可：</span>Public domain · <a href="https://commons.wikimedia.org/wiki/File:Guin%C3%A9e_0_-_2_S%C3%A9n%C3%A9gal6_(Krepin_Diatta).jpg" target="_blank" rel="noopener">Commons</a></div>
+          </figcaption>
+        </figure>
+
+        <figure class="g-item reveal" data-full="https://commons.wikimedia.org/wiki/Special:FilePath/Krepin%20Diatta%20France%20v%20Senegal%2016%20June%202026-385.jpg?width=1400" data-cap="gallery.cap.wc3" data-alt="gallery.alt.wc3" data-artist="Bryan Berlin" data-license="CC BY-SA 4.0">
+          <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Krepin%20Diatta%20France%20v%20Senegal%2016%20June%202026-385.jpg?width=900" alt="Krépin Diatta" data-i18n-alt="gallery.alt.wc3" data-fallback="27" referrerpolicy="no-referrer" loading="lazy" onerror="window.__imgFallback(this)">
+          <figcaption class="g-cap">
+            <div class="g-title" data-i18n="gallery.cap.wc3">2026 世界杯赛场瞬间</div>
+            <div class="g-credit"><span data-i18n="gallery.credit.by">作者：</span>Bryan Berlin · <span data-i18n="gallery.credit.license">许可：</span>CC BY-SA 4.0 · <a href="https://commons.wikimedia.org/wiki/File:Krepin_Diatta_France_v_Senegal_16_June_2026-385.jpg" target="_blank" rel="noopener">Commons</a></div>
+          </figcaption>
+        </figure>
+
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- Lightbox -->
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true">
+  <button class="lb-btn lb-close" id="lbClose" type="button" aria-label="关闭">×</button>
+  <button class="lb-btn lb-prev" id="lbPrev" type="button" aria-label="上一张">‹</button>
+  <img id="lbImg" alt="">
+  <div class="lb-counter" id="lbCounter"></div>
+  <p class="lb-caption" id="lbCaption"></p>
+  <p class="lb-credit" id="lbCredit"></p>
+  <button class="lb-btn lb-next" id="lbNext" type="button" aria-label="下一张">›</button>
+</div>
+
+<footer class="site-footer">
+  <div class="stripe-bar" aria-hidden="true"></div>
+  <div class="container footer-inner">
+    <p class="footer-brand">DIATTA <span>#27</span></p>
+    <p data-i18n="footer.disclaimer">本站为非官方球迷网站，与克雷平·迪亚塔本人及其所属俱乐部无关。</p>
+    <p data-i18n="footer.data">数据截至 2026 年 8 月，来自公开资料（维基百科、Transfermarkt、FootyStats），仅供参考。</p>
+    <p class="footer-links">
+      <a href="about.html" data-i18n="footer.about">关于本站</a>
+      <span>·</span>
+      <a href="https://www.asmonaco.com" target="_blank" rel="noopener">AS Monaco</a>
+      <span>·</span>
+      <a href="https://en.wikipedia.org/wiki/Kr%C3%A9pin_Diatta" target="_blank" rel="noopener">Wikipedia</a>
+    </p>
+    <p data-i18n="footer.credits">图片版权归原作者所有，署名详见图库页。</p>
+    <p>© <span id="year">2026</span> Fan Site</p>
+  </div>
+</footer>
+</body>
+</html>
