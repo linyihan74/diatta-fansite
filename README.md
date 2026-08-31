@@ -6,7 +6,7 @@ An unofficial bilingual (中文 / English) fan site for Senegalese footballer **
 ## 特性 / Features
 
 - 中英双语一键切换（默认中文，选择保存在浏览器中）/ Bilingual toggle (default Chinese, preference saved in browser)
-- 8 个页面：首页、生平、俱乐部、国家队、数据、荣誉、图库、关于 / 8 pages: Home, Bio, Career, National, Stats, Honours, Gallery, About
+- 9 个页面：首页、国家队、生平、俱乐部、数据、荣誉、图库、新闻、关于 / 9 pages: Home, National, Bio, Career, Stats, Honours, Gallery, News, About
 - 复古球衣视觉风格（塞内加尔绿/黄/红 + 摩纳哥红白 + 泛黄纸张质感）/ Retro jersey visual style
 - 图片引用 Wikimedia Commons 公开许可图片并署名，加载失败自动回退到 CSS 球衣占位图 / Images hotlinked from Wikimedia Commons with credits; graceful CSS-jersey fallback
 - 无需构建工具，纯静态 / No build step, pure static HTML/CSS/JS
@@ -47,6 +47,7 @@ national.html   # 国家队 National team
 stats.html      # 数据统计 Stats
 honors.html     # 荣誉 Honours
 gallery.html    # 图库 Gallery
+news.html       # 新闻与慈善 News & Charity
 about.html      # 关于 About
 css/style.css   # 主题样式 Theme
 js/i18n.js      # 双语词典与切换 Bilingual dictionary & toggle

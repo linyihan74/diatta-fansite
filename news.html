@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="zh" data-lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title data-i18n="page.title.news">新闻与慈善 · Krépin Diatta</title>
+<meta name="description" content="Krépin Diatta 新闻与慈善：家乡济金绍尔公益、KD15 基金会、采访与动态。News and charity work of Krépin Diatta.">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Bebas+Neue&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Bebas+Neue&display=swap"></noscript>
+<link rel="stylesheet" href="css/style.css">
+<script>
+(function () {
+  var l = new URLSearchParams(location.search).get('lang');
+  if (l !== 'en' && l !== 'zh') { try { l = localStorage.getItem('diatta_lang'); } catch (e) {} }
+  if (l !== 'en' && l !== 'zh') l = 'zh';
+  document.documentElement.lang = l;
+  document.documentElement.setAttribute('data-lang', l);
+})();
+window.__imgFallback = function (img) {
+  var num = img.getAttribute('data-fallback') || '15';
+  var svg = '<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600"><rect width="800" height="600" fill="#0B3D23"/><rect y="0" width="800" height="16" fill="#00853F"/><rect y="16" width="800" height="16" fill="#FDEF42"/><rect y="32" width="800" height="16" fill="#E31B23"/><text x="400" y="200" font-family="Arial Black,Arial,sans-serif" font-size="52" fill="#FDEF42" text-anchor="middle">DIATTA</text><text x="400" y="390" font-family="Arial Black,Arial,sans-serif" font-size="230" fill="#FDEF42" text-anchor="middle">' + num + '</text></svg>';
+  img.onerror = null;
+  img.src = 'data:image/svg+xml;charset=utf-8,' + encodeURIComponent(svg);
+};
+</script>
+<script src="js/i18n.js" defer></script>
+<script src="js/main.js" defer></script>
+</head>
+<body>
+<a class="skip-link" href="#main" data-i18n="nav.skip">跳到主要内容</a>
+
+<header class="site-header">
+  <div class="stripe-bar" aria-hidden="true"></div>
+  <div class="container header-inner">
+    <a class="brand" href="index.html">
+      <span class="brand-badge">15</span>
+      <span class="brand-text">
+        <span class="brand-name">DIATTA</span>
+        <span class="brand-sub" data-i18n="site.subtitle">克雷平·迪亚塔 · 球迷站</span>
+      </span>
+    </a>
+    <button class="nav-toggle" id="navToggle" type="button" aria-label="菜单" aria-expanded="false"><span></span><span></span><span></span></button>
+    <nav class="site-nav" id="siteNav" aria-label="主导航">
+      <ul>
+        <li><a href="index.html" data-i18n="nav.home">首页</a></li>
+        <li><a href="national.html" data-i18n="nav.national">国家队</a></li>
+        <li><a href="bio.html" data-i18n="nav.bio">生平</a></li>
+        <li><a href="career.html" data-i18n="nav.career">俱乐部</a></li>
+        <li><a href="stats.html" data-i18n="nav.stats">数据</a></li>
+        <li><a href="honors.html" data-i18n="nav.honors">荣誉</a></li>
+        <li><a href="gallery.html" data-i18n="nav.gallery">图库</a></li>
+        <li><a href="news.html" class="active" aria-current="page" data-i18n="nav.news">新闻</a></li>
+        <li><a href="about.html" data-i18n="nav.about">关于</a></li>
+      </ul>
+    </nav>
+    <button class="lang-toggle" id="langToggle" type="button" aria-label="切换语言为英文">EN</button>
+  </div>
+</header>
+
+<main id="main">
+  <section class="page-hero">
+    <div class="container">
+      <p class="hero-kicker" data-i18n="news.hero.kicker">新闻</p>
+      <h1 data-i18n="news.hero.title">新闻与慈善</h1>
+      <p class="hero-tagline" data-i18n="news.hero.tag">家乡公益 · 采访与动态</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <h2 class="section-title green" data-i18n="news.charity.title">家乡慈善公益</h2>
+      <p class="news-intro" data-i18n="news.charity.intro">迪亚塔从未忘记自己的根。他通过个人基金会 KD15 长期支持家乡济金绍尔的医疗、教育与社区事业。</p>
+      <figure class="card reveal" style="margin:0 0 24px">
+        <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Ziguinchor9.JPG?width=1000" alt="Ziguinchor" data-i18n-alt="gallery.alt.home" data-fallback="15" referrerpolicy="no-referrer" loading="lazy" onerror="window.__imgFallback(this)" style="width:100%;border-radius:10px">
+        <figcaption style="font-size:12px;color:#6B5C4D;margin-top:8px"><span data-i18n="gallery.cap.home">家乡：济金绍尔（卡萨芒斯）</span> · Wikimedia Commons · Ji-Elle · Public domain</figcaption>
+      </figure>
+
+      <div class="news-list">
+        <div class="card reveal">
+          <div class="news-head"><span class="news-date">2019-01</span><h3 data-i18n="news.charity.c1.title">2019 · 捐赠济金绍尔地区医院</h3></div>
+          <p data-i18n="news.charity.c1.desc">为地区医院捐赠大额支票，用于修建卫生手术科室。</p>
+          <p class="news-src"><span data-i18n="news.src.label">来源：</span>wiwsport · <a href="https://wiwsport.com/2019/01/04/le-beau-geste-de-krepin-diatta-a-lendroit-de-lhopital-regional-de-ziguinchor/" target="_blank" rel="noopener" data-i18n="news.readmore">阅读原文</a></p>
+        </div>
+        <div class="card reveal">
+          <div class="news-head"><span class="news-date">2020-03</span><h3 data-i18n="news.charity.c2.title">2020 · 家乡村庄表彰</h3></div>
+          <p data-i18n="news.charity.c2.desc">为家乡捐资并捐赠足球装备，获村民表彰。</p>
+          <p class="news-src"><span data-i18n="news.src.label">来源：</span>Footnews · <a href="https://www.footnews.be/news/186305/krepin-diatta-mis-a-lhonneur-dans-son-village-natal" target="_blank" rel="noopener" data-i18n="news.readmore">阅读原文</a></p>
+        </div>
+        <div class="card reveal">
+          <div class="news-head"><span class="news-date">2021-05</span><h3 data-i18n="news.charity.c3.title">2021 · KD15 基金会资助大学健康学院</h3></div>
+          <p data-i18n="news.charity.c3.desc">通过个人基金会向济金绍尔 Assane Seck 大学健康科学学院捐赠 500 万 FCFA。</p>
+          <p class="news-src"><span data-i18n="news.src.label">来源：</span>Senenews · <a href="https://www.senenews.com/actualites/krepin-diatta-offre-5-000-000-fcfa-a-lufr-sante-de-luniversite-assane-seck-de-ziguinchor_358035.html" target="_blank" rel="noopener" data-i18n="news.readmore">阅读原文</a></p>
+        </div>
+        <div class="card reveal">
+          <div class="news-head"><span class="news-date">2025-06</span><h3 data-i18n="news.charity.c4.title">2025 · 与 ETCOS 协会合办公益活动</h3></div>
+          <p data-i18n="news.charity.c4.desc">返乡参与校友协会慈善活动，呼吁无偿献血、支援当地医疗机构。</p>
+          <p class="news-src"><span data-i18n="news.src.label">来源：</span>Webinfos · <a href="https://www.webinfos.sn/ziguinchor-krepin-diatta-renoue-avec-ses-racines-dans-un-elan-de-solidarite/" target="_blank" rel="noopener" data-i18n="news.readmore">阅读原文</a></p>
+        </div>
+        <div class="card reveal">
+          <div class="news-head"><span class="news-date">2026-07</span><h3 data-i18n="news.charity.c5.title">2026 · 分发物资与千套学习用品</h3></div>
+          <p data-i18n="news.charity.c5.desc">在家乡分发生活物资，并宣布为学子提供 1,000 套学习用品。</p>
+          <p class="news-src"><span data-i18n="news.src.label">来源：</span>Walf Groupe · <a href="https://walf-groupe.com/blog/2026/07/30/ziguinchor-krepin-diatta-distribue-des-vivres-et-annonce-1-000-kits-scolaires-pour-les-eleves/" target="_blank" rel="noopener" data-i18n="news.readmore">阅读原文</a></p>
+        </div>
+        <div class="card reveal">
+          <div class="news-head"><span class="news-date">2026-08</span><h3 data-i18n="news.charity.c6.title">2026 · 大规模家乡公益行动</h3></div>
+          <p data-i18n="news.charity.c6.desc">向监狱、SOS 儿童村、达拉（古兰经学校）与孤儿院捐赠物资设备。</p>
+          <p class="news-src"><span data-i18n="news.src.label">来源：</span>iGFM · <a href="https://www.igfm.sn/ui/ziguinchor-krepin-diatta-lance-une-vaste-action-sociale" target="_blank" rel="noopener" data-i18n="news.readmore">阅读原文</a></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section alt">
+    <div class="container">
+      <h2 class="section-title" data-i18n="news.interviews.title">新闻与采访</h2>
+      <div class="news-list">
+        <div class="card reveal">
+          <div class="news-head"><span class="news-date">2026-01</span><h3 data-i18n="news.i1.title">2026-01 · 独家采访：为何缺席非洲杯决赛</h3></div>
+          <p data-i18n="news.i1.desc">首次详细透露因四次昏厥缺席决赛，检查结果均正常。</p>
+          <p class="news-src"><span data-i18n="news.src.label">来源：</span>GMS · <a href="https://www.gms.sn/krepin-diatta-se-confie-je-nai-pas-pu-jouer-la-finale-a-cause-de-quatre-malaises-video/" target="_blank" rel="noopener" data-i18n="news.readmore">阅读原文</a></p>
+        </div>
+        <div class="card reveal">
+          <div class="news-head"><span class="news-date">2026-01</span><h3 data-i18n="news.i2.title">2026-01 · 回应缺席决赛风波</h3></div>
+          <p data-i18n="news.i2.desc">向媒体回应决赛前因病缺席的真实原因。</p>
+          <p class="news-src"><span data-i18n="news.src.label">来源：</span>OneFootball · <a href="https://onefootball.com/pt-br/noticias/can-2025-krepin-diatta-reveals-the-real-reason-behind-the-illness-that-kept-him-out-of-the-final-42280333" target="_blank" rel="noopener" data-i18n="news.readmore">阅读原文</a></p>
+        </div>
+        <div class="card reveal">
+          <div class="news-head"><span class="news-date">2025-10</span><h3 data-i18n="news.i3.title">2025-10 · L'Équipe：谈摩纳哥新赛季</h3></div>
+          <p data-i18n="news.i3.desc">否认被边缘化，谈到改打右后卫与左右边后卫的转型。</p>
+          <p class="news-src"><span data-i18n="news.src.label">来源：</span>L'Équipe · <a href="https://www.lequipe.fr/Football/Actualites/-beaucoup-pensent-que-j-etais-mis-de-cote-mais-ce-n-etait-pas-le-cas-krepin-diatta-revient-sur-son-debut-de-saison-avec-l-as-monaco/1601168" target="_blank" rel="noopener" data-i18n="news.readmore">阅读原文</a></p>
+        </div>
+        <div class="card reveal">
+          <div class="news-head"><span class="news-date">2025-10</span><h3 data-i18n="news.i4.title">2025-10 · 当选十月最佳球员</h3></div>
+          <p data-i18n="news.i4.desc">获 Bang &amp; Olufsen 十月最佳球员奖，谈 3-4-3 阵型中的右翼卫新角色。</p>
+          <p class="news-src"><span data-i18n="news.src.label">来源：</span>OneFootball · <a href="https://onefootball.com.br/pt-br/noticias/krepin-diatta-is-your-october-mvp-by-bang-olufsen-41952926" target="_blank" rel="noopener" data-i18n="news.readmore">阅读原文</a></p>
+        </div>
+        <div class="card reveal">
+          <div class="news-head"><span class="news-date">2026-01</span><h3 data-i18n="news.i5.title">2026-01 · 专题：从边锋到国家队右后卫</h3></div>
+          <p data-i18n="news.i5.desc">媒体专题讲述他成为塞内加尔可靠右后卫的故事。</p>
+          <p class="news-src"><span data-i18n="news.src.label">来源：</span>Pan Africa Football · <a href="https://panafricafootball.com/article/krepin-diatta-the-natural-attacker-who-became-senegals-reliable-right-back" target="_blank" rel="noopener" data-i18n="news.readmore">阅读原文</a></p>
+        </div>
+        <div class="card reveal">
+          <div class="news-head"><span class="news-date">2026-06</span><h3 data-i18n="news.i6.title">2026-06 · RTS 采访：国家队目标</h3></div>
+          <p data-i18n="news.i6.desc">「我输过决赛、错过机会，真心希望这次轮到我们。」</p>
+          <p class="news-src"><span data-i18n="news.src.label">来源：</span>OneFootball / RTS · <a href="https://onefootball.com/fr/news/can-2025-krepin-diatta-sets-his-sights-with-senegal-42217171" target="_blank" rel="noopener" data-i18n="news.readmore">阅读原文</a></p>
+        </div>
+        <div class="card reveal">
+          <div class="news-head"><span class="news-date">2026-08</span><h3 data-i18n="news.i7.title">2026-08 · 人物：Sadio 是我的老大哥</h3></div>
+          <p data-i18n="news.i7.desc">英超传闻与他对马内的敬仰：他视马内为兄长。</p>
+          <p class="news-src"><span data-i18n="news.src.label">来源：</span>Yahoo Sport / Press Afrik · <a href="https://uk.sports.yahoo.com/news/meet-krepin-diatta-everton-transfer-061000047.html" target="_blank" rel="noopener" data-i18n="news.readmore">阅读原文</a></p>
+        </div>
+      </div>
+      <p class="note" data-i18n="news.source.note">以上为公开新闻报道链接，仅供球迷分享；内容版权归原媒体所有。</p>
+      <p class="note" data-i18n="news.social.note">更多动态可关注他的官方社交媒体（Instagram / TikTok）与俱乐部账号。</p>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="stripe-bar" aria-hidden="true"></div>
+  <div class="container footer-inner">
+    <p class="footer-brand">DIATTA <span>#15</span></p>
+    <p data-i18n="footer.disclaimer">本网站为球迷非官方粉丝站，与球员本人、俱乐部无任何关联。</p>
+    <p data-i18n="footer.data">数据截至 2026 年 8 月，来自公开资料（维基百科、Transfermarkt、FootyStats），仅供参考。</p>
+    <p class="footer-links">
+      <a href="news.html" data-i18n="nav.news">新闻</a>
+      <span>·</span>
+      <a href="about.html" data-i18n="footer.about">关于本站</a>
+      <span>·</span>
+      <a href="https://www.asmonaco.com" target="_blank" rel="noopener">AS Monaco</a>
+      <span>·</span>
+      <a href="https://en.wikipedia.org/wiki/Kr%C3%A9pin_Diatta" target="_blank" rel="noopener">Wikipedia</a>
+    </p>
+    <p data-i18n="footer.credits">图片版权归原作者所有，署名详见图库页。</p>
+    <p>© <span id="year">2026</span> Fan Site</p>
+  </div>
+</footer>
+</body>
+</html>
