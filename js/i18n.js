@@ -722,6 +722,12 @@
     "about.credits.p": "Wikimedia Commons 图片均保留作者与许可证信息；来自球员官方账号 @krepindiatta 的素材会注明“经球员同意使用”。球员许可不自动取代第三方摄影师可能拥有的版权。",
     "gallery.group.club": "俱乐部生涯", "gallery.group.senegal": "塞内加尔国家队", "gallery.group.roots": "生活、公益与家乡",
     "gallery.social.title": "球员官方影像", "gallery.social.p": "球员已同意本站使用其官方 Instagram 内容。由于 Instagram 不提供稳定的公开图片地址，本站不进行热链；授权素材将在取得可长期保存的原始文件后加入。"
+    ,"career.video.eyebrow": "AS 摩纳哥官方视频"
+    ,"career.video.title": "迪亚塔的摩纳哥集锦"
+    ,"career.video.desc": "通过俱乐部官方镜头，回顾他在摩纳哥右路的速度、推进与关键比赛片段。视频从精彩片段处开始播放。"
+    ,"career.video.cta": "在 YouTube 观看原视频"
+    ,"career.video.source": "来源：AS Monaco 官方 YouTube · 视频版权归原发布者所有"
+    ,"career.video.frameTitle": "AS Monaco 官方克雷平·迪亚塔集锦"
   });
   Object.assign(I18N_DICT.en, {
     "home.facts.club.v": "Free agent (since July 2026)",
@@ -737,6 +743,12 @@
     "about.credits.p": "Wikimedia Commons images retain their authors and licences. Material from the player's official @krepindiatta account is marked as used with his permission; that permission does not automatically replace any rights held by a third-party photographer.",
     "gallery.group.club": "Club career", "gallery.group.senegal": "Senegal national team", "gallery.group.roots": "Life, charity and home",
     "gallery.social.title": "Official player imagery", "gallery.social.p": "The player has agreed to the use of content from his official Instagram account. Because Instagram does not provide stable public image URLs, this site does not hotlink posts; authorized images will be added when durable original files are available."
+    ,"career.video.eyebrow": "Official AS Monaco video"
+    ,"career.video.title": "Diatta's Monaco highlights"
+    ,"career.video.desc": "Relive his pace, forward runs and key moments on Monaco's right flank through the club's official footage. Playback begins at the highlights."
+    ,"career.video.cta": "Watch the original on YouTube"
+    ,"career.video.source": "Source: AS Monaco official YouTube · Video copyright remains with the original publisher"
+    ,"career.video.frameTitle": "Official AS Monaco Krépin Diatta highlights"
   });
 
   /* French is deliberately maintained as a complete editorial layer. Proper
@@ -810,6 +822,12 @@
     "career.t3.club": "AS Monaco", "career.t3.period": "2021–2026",
     "career.t3.body": "143 matches, 8 buts et 7 passes décisives. Utilisé à plusieurs postes, il contribue à quatre podiums de Ligue 1 avant son départ libre en juin 2026.",
     "career.summary.title": "Bilan officiel à Monaco", "career.summary.note": "Source : AS Monaco, communiqué du 30 juin 2026. Le joueur est libre depuis le 1er juillet 2026.",
+    "career.video.eyebrow": "Vidéo officielle de l’AS Monaco",
+    "career.video.title": "Les temps forts de Diatta à Monaco",
+    "career.video.desc": "Retrouvez sa vitesse, ses projections et ses actions marquantes sur le couloir droit à travers les images officielles du club. La lecture commence au début du montage.",
+    "career.video.cta": "Voir la vidéo originale sur YouTube",
+    "career.video.source": "Source : chaîne YouTube officielle de l’AS Monaco · Droits vidéo réservés à l’éditeur d’origine",
+    "career.video.frameTitle": "Compilation officielle de Krépin Diatta par l’AS Monaco",
 
     "national.hero.kicker": "Équipe nationale", "national.hero.title": "Au service du Sénégal",
     "national.hero.tag": "International depuis 2019 · N°15 · champion d’Afrique 2025",
@@ -954,6 +972,10 @@
     var altNodes = document.querySelectorAll("[data-i18n-alt]");
     for (var k = 0; k < altNodes.length; k++) {
       altNodes[k].setAttribute("alt", t(altNodes[k].getAttribute("data-i18n-alt")));
+    }
+    var titleNodes = document.querySelectorAll("[data-i18n-title]");
+    for (var n = 0; n < titleNodes.length; n++) {
+      titleNodes[n].setAttribute("title", t(titleNodes[n].getAttribute("data-i18n-title")));
     }
     var phNodes = document.querySelectorAll("[data-i18n-placeholder]");
     for (var m = 0; m < phNodes.length; m++) {
