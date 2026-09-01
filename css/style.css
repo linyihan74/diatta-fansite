@@ -554,6 +554,17 @@ td.club-cell { font-weight: 800; white-space: nowrap; }
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
 .cta-band h2 { margin: 0 0 20px; font-family: var(--font-display); text-transform: uppercase; letter-spacing: 1px; }
+.cta-band .btn {
+  background: var(--cream);
+  color: var(--ink);
+  border-color: var(--yellow);
+  box-shadow: 4px 4px 0 var(--yellow);
+}
+.cta-band .btn:hover,
+.cta-band .btn:focus-visible {
+  background: var(--yellow);
+  color: var(--ink);
+}
 
 /* ---------- Footer ---------- */
 .site-footer { margin-top: 0; }
