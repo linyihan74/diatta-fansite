@@ -1,14 +1,15 @@
 # Krépin Diatta 球迷网站 / Fan Site
 
-一个关于塞内加尔球员 **克雷平·迪亚塔（Krépin Diatta）** 的中英双语粉丝资料网站。
-An unofficial bilingual (中文 / English) fan site for Senegalese footballer **Krépin Diatta**.
+一个关于塞内加尔球员 **克雷平·迪亚塔（Krépin Diatta）** 的中英法三语粉丝资料网站。
+An unofficial trilingual (中文 / English / Français) fan site for Senegalese footballer **Krépin Diatta**.
+Un site de supporters non officiel en trois langues consacré au footballeur sénégalais **Krépin Diatta**.
 
 ## 特性 / Features
 
-- 中英双语一键切换（默认中文，选择保存在浏览器中）/ Bilingual toggle (default Chinese, preference saved in browser)
+- 中文 / English / Français 三语下拉切换，支持 `?lang=zh|en|fr`，选择保存在浏览器中
 - 9 个页面：首页、国家队、生平、俱乐部、数据、荣誉、图库、新闻、关于 / 9 pages: Home, National, Bio, Career, Stats, Honours, Gallery, News, About
 - 复古球衣视觉风格（塞内加尔绿/黄/红 + 摩纳哥红白 + 泛黄纸张质感）/ Retro jersey visual style
-- 图片引用 Wikimedia Commons 公开许可图片并署名，加载失败自动回退到 CSS 球衣占位图 / Images hotlinked from Wikimedia Commons with credits; graceful CSS-jersey fallback
+- 重点图片保存在本地，图库保留 Wikimedia Commons 作者、许可证与来源链接；加载失败自动显示球衣占位图
 - 无需构建工具，纯静态 / No build step, pure static HTML/CSS/JS
 
 ## 本地预览 / Local preview
@@ -52,13 +53,16 @@ about.html      # 关于 About
 css/style.css   # 主题样式 Theme
 js/i18n.js      # 双语词典与切换 Bilingual dictionary & toggle
 js/main.js      # 导航、灯箱、图片回退 Nav, lightbox, image fallback
+assets/images/  # 本地图片资源 Local image assets
 favicon.svg     # 站点图标 Site icon
 ```
 
 ## 数据说明 / Data note
 
-数据截至 **2026 年 8 月**，整理自维基百科、Transfermarkt、FootyStats、WhoScored 等公开来源，仅用于球迷分享，不承诺实时更新。
-Stats are as of **August 2026**, compiled from public sources (Wikipedia, Transfermarkt, FootyStats, WhoScored) for fan purposes only.
+资料统一核验至 **2026 年 9 月 1 日**，优先采用 AS Monaco、CAF、FIFA 和塞内加尔足协等官方来源。AS Monaco 2026 年 6 月 30 日公告所载官方总计为 143 场、8 球、7 次助攻。
+Information was reviewed through **1 September 2026**, prioritising official club and competition sources. Statistics with differing scopes remain labelled as approximate.
+
+Wikimedia Commons 图片保留作者与许可证。来自球员官方 Instagram `@krepindiatta` 的图片只在获得可长期保存的原始文件后加入，注明球员许可和原帖链接；网站不热链 Instagram 文件，且球员许可不自动取代第三方摄影师可能拥有的版权。
 
 ## 免责声明 / Disclaimer
 
